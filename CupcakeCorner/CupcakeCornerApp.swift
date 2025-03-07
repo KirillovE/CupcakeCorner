@@ -1,14 +1,14 @@
 //
-//  CapcakeCornerApp.swift
-//  CapcakeCorner
+//  CupcakeCornerApp.swift
+//  CupcakeCorner
 //
-//  Created by Eugène Kiriloff on 04/03/2025.
+//  Created by Paul Hudson on 09/11/2023.
 //
 
 import SwiftUI
 
 @main
-struct CapcakeCornerApp: App {
+struct CupcakeCornerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

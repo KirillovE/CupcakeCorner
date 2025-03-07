@@ -3,23 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		51371FE72AFD896100E1060C /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51371FE62AFD896100E1060C /* CupcakeCornerApp.swift */; };
+		51371FE92AFD896100E1060C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51371FE82AFD896100E1060C /* ContentView.swift */; };
+		51371FEB2AFD896200E1060C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51371FEA2AFD896200E1060C /* Assets.xcassets */; };
+		51371FEE2AFD896200E1060C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51371FED2AFD896200E1060C /* Preview Assets.xcassets */; };
+		51371FF52AFEE71500E1060C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51371FF42AFEE71500E1060C /* Order.swift */; };
+		51371FF72AFEE96000E1060C /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51371FF62AFEE96000E1060C /* AddressView.swift */; };
+		51371FFB2B00327B00E1060C /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51371FFA2B00327B00E1060C /* CheckoutView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		08697C0F2D7770600067A08E /* CapcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51371FE32AFD896100E1060C /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51371FE62AFD896100E1060C /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
+		51371FE82AFD896100E1060C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		51371FEA2AFD896200E1060C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51371FED2AFD896200E1060C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		51371FF42AFEE71500E1060C /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		51371FF62AFEE96000E1060C /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		51371FFA2B00327B00E1060C /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		08697C112D7770600067A08E /* CapcakeCorner */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CapcakeCorner;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		08697C0C2D7770600067A08E /* Frameworks */ = {
+		51371FE02AFD896100E1060C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,103 +38,126 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08697C062D7770600067A08E = {
+		51371FDA2AFD896100E1060C = {
 			isa = PBXGroup;
 			children = (
-				08697C112D7770600067A08E /* CapcakeCorner */,
-				08697C102D7770600067A08E /* Products */,
+				51371FE52AFD896100E1060C /* CupcakeCorner */,
+				51371FE42AFD896100E1060C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		08697C102D7770600067A08E /* Products */ = {
+		51371FE42AFD896100E1060C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				08697C0F2D7770600067A08E /* CapcakeCorner.app */,
+				51371FE32AFD896100E1060C /* CupcakeCorner.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		51371FE52AFD896100E1060C /* CupcakeCorner */ = {
+			isa = PBXGroup;
+			children = (
+				51371FE62AFD896100E1060C /* CupcakeCornerApp.swift */,
+				51371FE82AFD896100E1060C /* ContentView.swift */,
+				51371FF62AFEE96000E1060C /* AddressView.swift */,
+				51371FFA2B00327B00E1060C /* CheckoutView.swift */,
+				51371FF42AFEE71500E1060C /* Order.swift */,
+				51371FEA2AFD896200E1060C /* Assets.xcassets */,
+				51371FEC2AFD896200E1060C /* Preview Content */,
+			);
+			path = CupcakeCorner;
+			sourceTree = "<group>";
+		};
+		51371FEC2AFD896200E1060C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				51371FED2AFD896200E1060C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		08697C0E2D7770600067A08E /* CapcakeCorner */ = {
+		51371FE22AFD896100E1060C /* CupcakeCorner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08697C1D2D7770610067A08E /* Build configuration list for PBXNativeTarget "CapcakeCorner" */;
+			buildConfigurationList = 51371FF12AFD896200E1060C /* Build configuration list for PBXNativeTarget "CupcakeCorner" */;
 			buildPhases = (
-				08697C0B2D7770600067A08E /* Sources */,
-				08697C0C2D7770600067A08E /* Frameworks */,
-				08697C0D2D7770600067A08E /* Resources */,
+				51371FDF2AFD896100E1060C /* Sources */,
+				51371FE02AFD896100E1060C /* Frameworks */,
+				51371FE12AFD896100E1060C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				08697C112D7770600067A08E /* CapcakeCorner */,
-			);
-			name = CapcakeCorner;
-			packageProductDependencies = (
-			);
-			productName = CapcakeCorner;
-			productReference = 08697C0F2D7770600067A08E /* CapcakeCorner.app */;
+			name = CupcakeCorner;
+			productName = CupcakeCorner;
+			productReference = 51371FE32AFD896100E1060C /* CupcakeCorner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		08697C072D7770600067A08E /* Project object */ = {
+		51371FDB2AFD896100E1060C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 1620;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					08697C0E2D7770600067A08E = {
-						CreatedOnToolsVersion = 16.2;
+					51371FE22AFD896100E1060C = {
+						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = 08697C0A2D7770600067A08E /* Build configuration list for PBXProject "CapcakeCorner" */;
+			buildConfigurationList = 51371FDE2AFD896100E1060C /* Build configuration list for PBXProject "CupcakeCorner" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 08697C062D7770600067A08E;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = 08697C102D7770600067A08E /* Products */;
+			mainGroup = 51371FDA2AFD896100E1060C;
+			productRefGroup = 51371FE42AFD896100E1060C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				08697C0E2D7770600067A08E /* CapcakeCorner */,
+				51371FE22AFD896100E1060C /* CupcakeCorner */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		08697C0D2D7770600067A08E /* Resources */ = {
+		51371FE12AFD896100E1060C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51371FEE2AFD896200E1060C /* Preview Assets.xcassets in Resources */,
+				51371FEB2AFD896200E1060C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08697C0B2D7770600067A08E /* Sources */ = {
+		51371FDF2AFD896100E1060C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51371FF52AFEE71500E1060C /* Order.swift in Sources */,
+				51371FF72AFEE96000E1060C /* AddressView.swift in Sources */,
+				51371FFB2B00327B00E1060C /* CheckoutView.swift in Sources */,
+				51371FE92AFD896100E1060C /* ContentView.swift in Sources */,
+				51371FE72AFD896100E1060C /* CupcakeCornerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		08697C1B2D7770610067A08E /* Debug */ = {
+		51371FEF2AFD896200E1060C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -177,7 +209,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -188,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		08697C1C2D7770610067A08E /* Release */ = {
+		51371FF02AFD896200E1060C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +266,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -244,15 +276,15 @@
 			};
 			name = Release;
 		};
-		08697C1E2D7770610067A08E /* Debug */ = {
+		51371FF22AFD896200E1060C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CapcakeCorner/Preview Content\"";
-				DEVELOPMENT_TEAM = 8HPH483Z2C;
+				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
+				DEVELOPMENT_TEAM = B5C26XE59E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -265,7 +297,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.triade.CapcakeCorner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.CupcakeCorner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -273,15 +305,15 @@
 			};
 			name = Debug;
 		};
-		08697C1F2D7770610067A08E /* Release */ = {
+		51371FF32AFD896200E1060C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CapcakeCorner/Preview Content\"";
-				DEVELOPMENT_TEAM = 8HPH483Z2C;
+				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
+				DEVELOPMENT_TEAM = B5C26XE59E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -294,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.triade.CapcakeCorner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.CupcakeCorner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -305,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		08697C0A2D7770600067A08E /* Build configuration list for PBXProject "CapcakeCorner" */ = {
+		51371FDE2AFD896100E1060C /* Build configuration list for PBXProject "CupcakeCorner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				08697C1B2D7770610067A08E /* Debug */,
-				08697C1C2D7770610067A08E /* Release */,
+				51371FEF2AFD896200E1060C /* Debug */,
+				51371FF02AFD896200E1060C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		08697C1D2D7770610067A08E /* Build configuration list for PBXNativeTarget "CapcakeCorner" */ = {
+		51371FF12AFD896200E1060C /* Build configuration list for PBXNativeTarget "CupcakeCorner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				08697C1E2D7770610067A08E /* Debug */,
-				08697C1F2D7770610067A08E /* Release */,
+				51371FF22AFD896200E1060C /* Debug */,
+				51371FF32AFD896200E1060C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 08697C072D7770600067A08E /* Project object */;
+	rootObject = 51371FDB2AFD896100E1060C /* Project object */;
 }
